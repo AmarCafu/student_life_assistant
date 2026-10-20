@@ -37,7 +37,7 @@ String getRecommendation(List<Task> tasks) {
     }
   }
 
-  return 'Tidak ada kegiatan mendesak saat ini.';
+  return 'Tidak ada kegiatan mendesak pada saat ini.';
 }
 
 void main() {
