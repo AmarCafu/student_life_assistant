@@ -11,7 +11,7 @@ class StudentProfileApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Student Profile',
+      title: 'Student Profile Amar',
       theme: ThemeData(useMaterial3: true),
       home: const StudentProfilePage(),
     );
@@ -53,7 +53,7 @@ class _StudentProfilePageState extends State<StudentProfilePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Student Profile')),
+      appBar: AppBar(title: const Text('Student Profile Amar')),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Column(
